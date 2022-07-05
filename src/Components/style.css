@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(165, 221, 202);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.left-content{
+    flex-basis: 90%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:5rem;
+}
+.card{
+    width: 300px;
+    height: 750px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    display: block;
+}
+
+.abilities{
+    
+    display: block;
+}
+.abilities .group{
+    display: block;
+}
+
+ .image
+ {
+    width : 250px;
+    height : 250px;
+ }
+
+ h1{
+    text-transform: capitalize;
+  color: #3e0a23;
+  font-size: 25px;
+ }
+
+ h2{
+    font-family: "Lucida Handwriting",cursive;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+ .title{
+    font: italic small-caps bold 12px/30px Verdana;
+    font-size: 30px;
+    color :rgb(27, 27, 129)
+ }
